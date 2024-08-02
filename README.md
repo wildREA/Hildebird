@@ -56,7 +56,7 @@ This project uses the following open source assets:
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the GNU General Public License. See `LICENSE.txt` for more information.
 
 
 
