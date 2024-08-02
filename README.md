@@ -26,7 +26,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
     </li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contributing">Credits</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -40,6 +40,16 @@
 The project was made by a Data Technician with specialization in programming student within the IT college educational degree, Data- & Communications, as part of his mandatory project regarding front-end development with both HTML, CSS, and JavaScript. There has been made extra features and debugging in order to have not just to have no errors in the code, but also having no warnings entirely (goes for project files only). Efficiency and consistency in the website's workflow is healthy.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+## Credits
+
+This project uses the following open source assets:
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Netlify](https://www.netlify.com/)
+- [Git](https://www.git-tower.com/)
 
 
 
