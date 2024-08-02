@@ -37,7 +37,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The project was made by a Data- & Communication student as part of his mandatory project regarding front-end development with both HTML, CSS, and JavaScript. There has been made extra features and debugging in order to have not just to have no errors in the code, but also having no warnings entirely (goes for project files only). Efficiency and consistency in the website's workflow is healthy.
+The project was made by a Data Technician with specialization in programming student within the IT college educational degree, Data- & Communications, as part of his mandatory project regarding front-end development with both HTML, CSS, and JavaScript. There has been made extra features and debugging in order to have not just to have no errors in the code, but also having no warnings entirely (goes for project files only). Efficiency and consistency in the website's workflow is healthy.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
