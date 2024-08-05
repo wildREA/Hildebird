@@ -3,6 +3,18 @@ body {
     font: 11pt futura, helvetica, arial, sans-serif;
 }
 
+header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+
+header img {
+    width: 250px;
+    height: 250px;
+    margin-left: 5px;
+}
+
 ul {
     list-style-type: none;
     margin: -.6vw;
@@ -32,18 +44,6 @@ li a:hover {
 
 
 /* structure */
-.header {
-    display: flex;
-    flex-direction: column;
-    margin-top: 45px;
-}
-
-.header img {
-    width: 250px;
-    height: 250px;
-    margin-left: 5px;
-}
-
 .active {
     background-color: #4A6FCF ;
 }
@@ -72,15 +72,17 @@ li a:hover {
 
 .perinfo {
     padding-left: 15px;
+    margin-bottom: 25px;
 }
 
 .perinfo p {
     font-size: 16px;
     margin-left: 5px;
-    size: 0 -10px;
+    size: 0px -10px;
+    margin-bottom: -5px;
 }
 
-.perinfo > div {
+.perinfo > p {
     display: flex;
     flex-direction: row;
 }
@@ -110,6 +112,7 @@ li a:hover {
 .hosting {
     text-align: right;
     position: fixed;
+    margin-bottom: 0px;
     bottom: 3px;
     right: 3px;
     width: 100%;
