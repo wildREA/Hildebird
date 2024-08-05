@@ -67,6 +67,37 @@ li a:hover {
     flex-direction: row;
 }
 
+.differences {
+    font-weight: bold;
+}
+
+.headline {
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.development {
+    font-size: 95%;
+}
+
+.descriptions {
+    width: 600px;
+    margin-top: -15px;
+}
+
+.misfit {
+    margin-top: -10px;
+}
+
+.spacing {
+    margin-bottom: 40px;
+}
+
+.spacing_last {
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+
 .age {
     margin-bottom: -25px;
 }
@@ -83,4 +114,23 @@ li a:hover {
     margin-top: -35px;
     margin-left: 10px;
     margin-bottom: 3px;
+}
+
+.hosting {
+    text-align: right;
+    position: fixed;
+    bottom: 3px;
+    right: 3px;
+    width: 100%;
+    z-index: 999999;
+    cursor: pointer;
+    line-height: 0;
+    display: block;
+}
+
+.hosting img {
+    border-width: 0px;
+    width: 180px;
+    height: 45px;
+    float: right;
 }

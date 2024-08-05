@@ -67,6 +67,62 @@ li a:hover {
     flex-direction: row;
 }
 
+.differences {
+    font-weight: bold;
+}
+
+.degree {
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.college {
+    margin-top: -10px;
+}
+
+.date {
+    margin-top: -10px;
+    font-size: 80%;
+}
+
+.certificate {
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.python {
+    margin-top: -10px;
+}
+
+.qualifications {
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.development {
+    font-size: 95%;
+}
+
+.descriptions {
+    width: 600px;
+}
+
+.descriptions p {
+    margin-top: -15px;
+}
+
+.misfit {
+    margin-top: -10px;
+}
+
+.spacing {
+    margin-bottom: 30px;
+}
+
+.spacing_last {
+    margin-bottom: 25px;
+}
+
 .age {
     margin-bottom: -25px;
 }
@@ -83,4 +139,23 @@ li a:hover {
     margin-top: -35px;
     margin-left: 10px;
     margin-bottom: 3px;
+}
+
+.hosting {
+    text-align: right;
+    position: fixed;
+    bottom: 3px;
+    right: 3px;
+    width: 100%;
+    z-index: 999999;
+    cursor: pointer;
+    line-height: 0;
+    display: block;
+}
+
+.hosting img {
+    border-width: 0px;
+    width: 180px;
+    height: 45px;
+    float: right;
 }

@@ -52,6 +52,24 @@ li a:hover {
     background-color: #4261a3 ;
 }
 
+.headline {
+    margin-top: 25px;
+    margin-bottom: -8px;
+}
+
+.description {
+    margin-bottom: -10px;
+}
+
+.cnctinfo {
+    margin-top: 30px;
+    margin-bottom: -11px;
+}
+
+.tlf {
+    margin-top: -10px;
+}
+
 .perinfo {
     padding-left: 15px;
 }
@@ -65,6 +83,10 @@ li a:hover {
 .perinfo > div {
     display: flex;
     flex-direction: row;
+}
+
+.differences {
+    font-weight: bold;
 }
 
 .age {
@@ -83,4 +105,23 @@ li a:hover {
     margin-top: -35px;
     margin-left: 10px;
     margin-bottom: 3px;
+}
+
+.hosting {
+    text-align: right;
+    position: fixed;
+    bottom: 3px;
+    right: 3px;
+    width: 100%;
+    z-index: 999999;
+    cursor: pointer;
+    line-height: 0;
+    display: block;
+}
+
+.hosting img {
+    border-width: 0px;
+    width: 180px;
+    height: 45px;
+    float: right;
 }
