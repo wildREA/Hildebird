@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>H. Birds Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
     <header>
@@ -27,19 +27,37 @@
             <li><a class="active" href="index.html">Home</a></li>
             <li><a href="info.html">Information</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a class="action" href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <main>
         <section>
-            <h2 class="headline">Om Mig</h2>
-            <p class="description">Bosiddende på Fyn.</p>
-            <p>Flere års erfaring med front- og backend-udvikling, alene eller i partnerskab. Jeg har specialiseret mig i web-oplevelser med fokus på animeret, responsiv og interaktivt indhold. Jeg elsker minimalistisk og brutalistisk design, naturen og pizza.</p>
-        </section>
-        <section>
-            <h3 class="cnctinfo">Kontaktinformation</h3>
-            <p><a href="mailto:hilde@gard.dk">hilde@gard.dk</a></p>
-            <p class="tlf">Tlf. +45 12345678</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <form action="form.php" method="post" class="contact-form">
+                <div class="form-group">
+                    <label class="forced" for="name">Navn:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label class="offset" for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label class="offset" for="subject">Emne:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="form-group">
+                    <label class="offset" for="message">Besked:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
         </section>
     </main>
     <footer>
@@ -49,6 +67,6 @@
             </a>
         </p>
     </footer>
-    <script src="script.js"></script>
+    <script src=""></script>
 </body>
 </html>

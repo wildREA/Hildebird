@@ -1,0 +1,158 @@
+body {
+    font: 11pt futura, helvetica, arial, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+
+header img {
+    width: 250px;
+    height: 250px;
+    margin-left: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: -.6vw;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4A6FCF;
+}
+
+.active:hover {
+    background-color: #4261a3;
+}
+
+.perinfo {
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+
+.perinfo p {
+    font-size: 16px;
+    margin-left: 5px;
+    margin-bottom: -5px;
+}
+
+.perinfo > p {
+    display: flex;
+    flex-direction: row;
+}
+
+.differences {
+    font-weight: bold;
+}
+
+.age {
+    margin-bottom: -25px;
+}
+
+.other1 {
+    margin-bottom: -25px;
+}
+
+.other2 {
+    margin-bottom: 5px;
+}
+
+.name {
+    margin-top: -35px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.hosting {
+    text-align: right;
+    position: fixed;
+    margin-bottom: 0px;
+    bottom: 3px;
+    right: 3px;
+    width: 100%;
+    z-index: 999999;
+    cursor: pointer;
+    line-height: 0;
+    display: block;
+}
+
+.hosting img {
+    border-width: 0px;
+    width: 180px;
+    height: 45px;
+    float: right;
+}
+
+/* Contact form */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 116px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-group {
+    margin-bottom: px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    min-height: 55px;
+    max-height: 310px;
+}
+
+.contact-form button {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background-color: #4A6FCF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #4261a3;
+}
