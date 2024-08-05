@@ -156,3 +156,7 @@ li a:hover {
 .contact-form button:hover {
     background-color: #4261a3;
 }
+
+.spacing {
+    margin-bottom: 50px;
+}
