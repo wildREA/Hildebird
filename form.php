@@ -20,7 +20,7 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
 // Process the data (e.g., save to a database or send an email)
 // Example: send an email
-$to = 'your-email@example.com';
+$to = 'wildrealinit@gmail.com';
 $headers = "From: $email\r\n";
 $headers .= "Reply-To: $email\r\n";
 $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";

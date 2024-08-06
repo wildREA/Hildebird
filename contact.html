@@ -32,27 +32,23 @@
     </nav>
     <main>
         <section>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+            <p class="spacing"></p>
             <form action="form.php" method="post" class="contact-form">
                 <div class="form-group">
                     <label class="forced" for="name">Navn:</label>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="name" name="name" required autocomplete="off">
                 </div>
                 <div class="form-group">
                     <label class="offset" for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="email" id="email" name="email" required autocomplete="off">
                 </div>
                 <div class="form-group">
                     <label class="offset" for="subject">Emne:</label>
-                    <input type="text" id="subject" name="subject" required>
+                    <input type="text" id="subject" name="subject" required autocomplete="off">
                 </div>
                 <div class="form-group">
                     <label class="offset" for="message">Besked:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <textarea id="message" name="message" rows="4" required autocomplete="off"></textarea>
                 </div>
                 <div class="form-group">
                     <button type="submit">Send</button>
