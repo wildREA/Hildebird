@@ -1,6 +1,8 @@
 <?php
+var_dump($_POST);
+
 if (isset($_POST['email'])) {
-    
+
     $email_to = "wildrealinit@gmail.com";
     $email_subject = "Hildebird: New message!";
 
