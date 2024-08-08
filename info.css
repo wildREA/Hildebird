@@ -54,6 +54,11 @@ li a:hover {
     background-color: #4261a3 ;
 }
 
+.headline {
+    margin-top: 25px;
+    margin-bottom: -8px;
+}
+
 .perinfo {
     padding-left: 15px;
     margin-bottom: 25px;

@@ -1,36 +1,6 @@
-<!DOCTYPE html>
-<html lang="da">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google" content="notranslate">
-    <title>H. Birds Portfolio</title>
-    <link rel="stylesheet" href="info.css">
-</head>
-<body>
-    <header>
-        <h1 class="name">Hildegard Summerbird</h1>
-        <img src="photo.jpg" alt="Photo of Person">
-        <section class="perinfo">
-            <p class="age">
-                <span class="differences">Alder:</span> 130
-            </p>
-            <p class="other1">
-                <span class="differences">Job:</span> Full-Stack Developer
-            </p>
-            <p class="other2">
-                <span class="differences">Specialisering:</span> UX/UI design
-            </p>
-        </section>
-    </header>
-    <nav>
-        <ul id="navigation">
-            <li><a href="index.html">Home</a></li>
-            <li><a class="active" href="info.html">Information</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+<?php 
+required_once ("includes/header.php")
+?>
     <main>
         <section>
             <h3 class="degree">Uddannelse</h3>
