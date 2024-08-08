@@ -1,5 +1,6 @@
 <?php
 required_once ("function.php");
+required_once ("db_config.php");
 ?>
 <!DOCTYPE html>
 <html lang="da">
