@@ -1,4 +1,5 @@
 <?php
+
 var_dump($_POST);
 
 if (isset($_POST['email'])) {
@@ -6,32 +7,23 @@ if (isset($_POST['email'])) {
     $email_to = "wildrealinit@gmail.com";
     $email_subject = "Hildebird: New message!";
 
-    function problem($error)
-    {
-        echo "Oh looks like there is some problem with your form data: <br><br>";
-        echo $error . "<br><br>";
-        echo "Please fix those to proceed.<br><br>";
-        die();
-    }
-
     // validating expected data exists
     if (
-        !isset($_POST['name']) ||
-        !isset($_POST['email']) ||
-        !isset($_POST['message'])
+            !isset($_POST['name']) ||
+            !isset($_POST['email']) ||
+            !isset($_POST['message'])
     ) {
-        problem('Oh looks like there is some problem with your form data.');
+        problem('It looks like there is a problem with your form data.');
     }
 
-    $name = $_POST['fullName']; // required
+    $name = $_POST['name']; // required
     $email = $_POST['email']; // required
     $message = $_POST['message']; // required
 
     $error_message = "";
-    $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
 
-    if (!preg_match($email_exp, $email)) {
-        $error_message .= 'Email address does not seem valid.<br>';
+    if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $emailErr = "Email address does not seem valid..<br>";
     }
 
     $string_exp = "/^[A-Za-z .'-]+$/";
@@ -46,15 +38,12 @@ if (isset($_POST['email'])) {
 
     if (strlen($error_message) > 0) {
         problem($error_message);
+    } {
+        // save to database
+        // send to email
     }
 
     $email_message = "Form details following:\n\n";
-
-    function clean_string($string)
-    {
-        $bad = array("content-type", "bcc:", "to:", "cc:", "href");
-        return str_replace($bad, "", $string);
-    }
 
     $email_message .= "Name: " . clean_string($name) . "\n";
     $email_message .= "Email: " . clean_string($email) . "\n";
@@ -62,14 +51,8 @@ if (isset($_POST['email'])) {
 
     // creates email headers
     $headers = 'From: ' . $email . "\r\n" .
-        'Reply-To: ' . $email . "\r\n" .
-        'X-Mailer: PHP/' . phpversion();
+            'Reply-To: ' . $email . "\r\n" .
+            'X-Mailer: PHP/' . phpversion();
     @mail($email_to, $email_subject, $email_message, $headers);
-?>
-
-    Thanks for contacting us, we will get back to you as soon as possible.
-    Tak for din besked. En returnerene besked vil bliver afsent tilbage så snart som mulig.
-
-<?php
 }
 ?>
