@@ -1,8 +1,11 @@
+/* tags */
 body {
+    background: #f7f7f7;
     font: 11pt futura, helvetica, arial, sans-serif;
 }
 
 header {
+    background: #f7f7f7;
     display: flex;
     flex-direction: column;
     margin-top: 45px;

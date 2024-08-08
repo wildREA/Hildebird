@@ -27,3 +27,11 @@ required_once ("db_config.php");
             </p>
         </section>
     </header>
+    <nav>
+        <ul id="navigation">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="info.html">Information</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
