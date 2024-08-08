@@ -78,7 +78,6 @@ li a:hover {
 .perinfo p {
     font-size: 16px;
     margin-left: 5px;
-    size: 0px -10px;
     margin-bottom: -5px;
 }
 
@@ -89,6 +88,7 @@ li a:hover {
 
 .differences {
     font-weight: bold;
+    margin-right: 5px;
 }
 
 .age {
