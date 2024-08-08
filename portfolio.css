@@ -1,0 +1,141 @@
+/* tags */
+body {
+    font: 11pt futura, helvetica, arial, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+
+header img {
+    width: 250px;
+    height: 250px;
+    margin-left: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: -.6vw;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
+
+/* structure */
+.active {
+    background-color: #4A6FCF ;
+}
+
+.active:hover {
+    background-color: #4261a3 ;
+}
+
+.perinfo {
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+
+.perinfo p {
+    font-size: 16px;
+    margin-left: 5px;
+    size: 0px -10px;
+    margin-bottom: -5px;
+}
+
+.perinfo > p {
+    display: flex;
+    flex-direction: row;
+}
+
+.differences {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.headline {
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.development {
+    font-size: 95%;
+}
+
+.descriptions {
+    width: 600px;
+    margin-top: -15px;
+}
+
+.misfit {
+    margin-top: -10px;
+}
+
+.spacing {
+    margin-bottom: 40px;
+}
+
+.spacing_last {
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+
+.age {
+    margin-bottom: -25px;
+}
+
+.other1 {
+    margin-bottom: -25px;
+}
+
+.other2 {
+    margin-bottom: 5px;
+}
+
+.name {
+    margin-top: -35px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    font-size: 22.25px;
+}
+
+.hosting {
+    text-align: right;
+    position: fixed;
+    margin-bottom: 0px;
+    bottom: 3px;
+    right: 3px;
+    width: 100%;
+    z-index: 999999;
+    cursor: pointer;
+    line-height: 0;
+    display: block;
+}
+
+.hosting img {
+    border-width: 0px;
+    width: 180px;
+    height: 45px;
+    float: right;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate">
+    <title>H. Birds Portfolio</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <h1 class="name">Hildegard Summerbird</h1>
+        <img src="photo.jpg" alt="Photo of Person">
+        <section class="perinfo">
+            <p class="age">
+                <span class="differences">Alder:</span> 130
+            </p>
+            <p class="other1">
+                <span class="differences">Job:</span> Full-Stack Developer
+            </p>
+            <p class="other2">
+                <span class="differences">Specialisering:</span> UX/UI design
+            </p>
+        </section>
+    </header>
+    <nav>
+        <ul id="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="info.html">Information</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <p class="spacing"></p>
+            <form action="form.php" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label class="forced" for="name">Navn:</label>
+                    <input type="text" id="name" name="name" required autocomplete="off">
+                </div>
+                <div class="form-group">
+                    <label class="offset" for="email">Email:</label>
+                    <input type="email" id="email" name="email" required autocomplete="off">
+                </div>
+                <div class="form-group">
+                    <label class="offset" for="message">Besked:</label>
+                    <textarea id="message" name="message" rows="4" required autocomplete="off"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p class="hosting">
+            <a target="_blank" href="https://www.freewebhostingarea.com" title="Free Web Hosting with PHP5 or PHP7">
+                <img alt="Free Web Hosting" src="https://www.freewebhostingarea.com/images/poweredby.png">
+            </a>
+        </p>
+    </footer>
+    <script src=""></script>
+    <script src="pageScroll.js"></script>
+</body>
+</html>
