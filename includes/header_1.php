@@ -1,13 +1,14 @@
 <?php
-require_once ("functions.php");
+require_once ("function.php");
 require_once ("db_config.php");
 
-$show_alert = false;
-//
+$show_alert = true;
+
 if (isset($_GET["status"])) {
     $status_value = $_GET["status"];
     $show_alert = true;
 }
+var_dump($show_alert);
 ?>
 <!DOCTYPE html>
 <html lang="da">
@@ -25,14 +26,14 @@ if (isset($_GET["status"])) {
     <header>
         <h1 class="name">Hildegard Summerbird</h1>
         <img src="photo.jpg" alt="Photo of Person">
-        <section id="perinfo">
-            <p id="age">
+        <section class="perinfo">
+            <p class="age">
                 <span class="differences">Alder:</span> <a>130</a>
             </p>
-            <p id="other1">
+            <p class="other1">
                 <span class="differences">Job:</span> <a>Full-Stack Developer</a>
             </p>
-            <p id="other2">
+            <p class="other2">
                 <span class="differences">Specialisering:</span> <a>UX/UI design</a>
             </p>
         </section>
