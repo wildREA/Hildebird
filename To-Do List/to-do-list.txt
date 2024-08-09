@@ -1,0 +1,6 @@
+Information -> Projects
+- From list to dropdown
+- All projects divided between Development (Udvikling) and Design.
+- Form.php redirects/stays back at contact.html with success/failed alert (clears field).
+- Fix CSS (weigh more than bootstrap)
+- Fix issue with PHPmailer library connection (line: 4)
