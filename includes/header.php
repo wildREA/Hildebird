@@ -21,9 +21,9 @@ if (isset($_GET["status"])) {
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<body>
-    <header>
-        <h1 class="name">Hildegard Summerbird</h1>
+<body id="bootstrap-overrides">
+    <header id="header-override">
+        <h1 id="name">Hildegard Summerbird</h1>
         <img src="photo.jpg" alt="Photo of Person">
         <section id="perinfo">
             <p id="age">
@@ -37,11 +37,3 @@ if (isset($_GET["status"])) {
             </p>
         </section>
     </header>
-    <nav>
-        <ul id="navigation">
-            <li><a class="active" href="index.php">Home</a></li>
-            <li><a href="info.php">Information</a></li>
-            <li><a href="portfolio.php">Portfolio</a></li>
-            <li><a href="contact.php">Contact</a></li>
-        </ul>
-    </nav>

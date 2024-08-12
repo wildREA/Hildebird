@@ -1,10 +1,18 @@
 <?php 
-require_once ("includes/header.php");
+require_once ("includes/header.php")
 ?>
+    <nav>
+        <ul id="navigation">
+            <li><a id="active" href="index.php">Home</a></li>
+            <li><a href="info.php">Information</a></li>
+            <li><a href="portfolio.php">Portfolio</a></li>
+            <li><a href="contact.php">Contact</a></li>
+        </ul>
+    </nav>
     <main>
         <section>
-            <h2 class="headline">Om Mig</h2>
-            <p class="description">Bosiddende på Fyn.</p>
+            <h2 id="headline">Om Mig</h2>
+            <p id="description">Bosiddende på Fyn.</p>
             <p>Flere års erfaring med front- og backend-udvikling, alene eller i partnerskab. Jeg har specialiseret mig i web-oplevelser med fokus på animeret, responsiv og interaktivt indhold. Jeg elsker minimalistisk og brutalistisk design, naturen og pizza.</p>
         </section>
     </main>
