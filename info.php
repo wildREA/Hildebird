@@ -1,5 +1,5 @@
 <?php 
-required_once ("includes/header.php")
+require_once ("includes/header.php");
 ?>
     <main>
         <section>
