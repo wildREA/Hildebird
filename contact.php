@@ -7,6 +7,10 @@ require_once ("includes/header.php");
     ?>
     <div class="alert alert-success">
         <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Success!</strong> Email sent successfully!
+    </div>
+    <div class="alert alert-error">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
         <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
     </div>
     <?php

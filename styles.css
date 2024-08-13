@@ -1,17 +1,17 @@
 /* tags */
-body {
+#bootstrap-overrides {
     background: #f7f7f7;
     font: 11pt futura, helvetica, arial, sans-serif;
 }
 
-header {
+#header-override {
     background: #f7f7f7;
     display: flex;
     flex-direction: column;
     margin-top: 45px;
 }
 
-header img {
+#header-override img {
     width: 250px;
     height: 250px;
     margin-left: 5px;
@@ -59,25 +59,16 @@ li a:hover {
     margin-bottom: -6px;
 }
 
-.description {
+#description {
     margin-bottom: -10px;
 }
 
-.cnctinfo {
-    margin-top: 30px;
-    margin-bottom: -11px;
-}
-
-.tlf {
-    margin-top: -10px;
-}
-
-.perinfo {
+#perinfo {
     padding-left: 15px;
     margin-bottom: 25px;
 }
 
-.perinfo p {
+#perinfo p {
     font-size: 16px;
     margin-left: 5px;
     margin-bottom: -5px;
@@ -88,7 +79,7 @@ li a:hover {
     flex-direction: row;
 }
 
-.differences {
+#differences {
     font-weight: bold;
     margin-right: 5px;
 }
@@ -105,7 +96,7 @@ li a:hover {
     margin-bottom: 5px;
 }
 
-.name {
+#name {
     margin-top: -35px;
     margin-left: 10px;
     margin-bottom: 3px;
@@ -113,7 +104,7 @@ li a:hover {
 }
 
 
-.hosting {
+#hosting {
     text-align: right;
     position: fixed;
     margin-bottom: 0px;
