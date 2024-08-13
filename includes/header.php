@@ -24,16 +24,16 @@ if (isset($_GET["status"])) {
 <body id="bootstrap-overrides">
     <header id="header-override">
         <h1 id="name">Hildegard Summerbird</h1>
-        <img src="photo.jpg" alt="Photo of Person">
+        <img id="photo" src="photo.jpg" alt="Photo of Person">
         <section id="perinfo">
             <p id="age">
-                <span class="differences">Alder:</span> <a>130</a>
+                <span id="differences">Alder:</span> <a id="attributes">130</a>
             </p>
             <p id="other1">
-                <span class="differences">Job:</span> <a>Full-Stack Developer</a>
+                <span id="differences">Job:</span> <a id="attributes">Full-Stack Developer</a>
             </p>
             <p id="other2">
-                <span class="differences">Specialisering:</span> <a>UX/UI design</a>
+                <span id="differences">Specialisering:</span> <a id="attributes">UX/UI design</a>
             </p>
         </section>
     </header>

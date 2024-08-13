@@ -1,6 +1,14 @@
 <?php 
 require_once ("includes/header.php");
 ?>
+    <nav>
+        <ul id="navigation">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="info.php">Information</a></li>
+            <li><a id="active" href="portfolio.php">Portfolio</a></li>
+            <li><a href="contact.php">Contact</a></li>
+        </ul>
+    </nav>
     <main>
         <section>
             <h3 class="headline">Udavalgte projekter</h3> <!-- does not want to work with css file-->
