@@ -188,3 +188,11 @@
 #main #information #spacing {
     margin-bottom: 50px;
 }
+
+#success {
+    margin-top: 8px;
+}
+
+#error {
+    margin-top: 8px;
+}
