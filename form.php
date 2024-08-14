@@ -84,7 +84,7 @@ if (isset($_POST['email'])) {
                 $mail->Subject = $email_subject;
 
                 // email body construction
-                $email_message = "Form details following:\n\n";
+                $email_message = "Form submission details:\n\n";
                 $email_message .= "Name: " . clean_string($name) . "\n";
                 $email_message .= "Email: " . clean_string($email) . "\n";
                 $email_message .= "Message: " . clean_string($message) . "\n";

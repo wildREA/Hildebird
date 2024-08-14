@@ -1,23 +1,32 @@
 /* tags */
-body {
+#bootstrap-overrides {
     background: #f7f7f7;
     font: 11pt futura, helvetica, arial, sans-serif;
 }
 
-header {
+#header-override {
     background: #f7f7f7;
     display: flex;
     flex-direction: column;
     margin-top: 45px;
+    
+    /* disables highlighting for all devices (more clean) */
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                          supported by Chrome, Edge, Opera and Firefox */
 }
 
-header img {
+#header-override #photo {
     width: 250px;
     height: 250px;
-    margin-left: 5px;
+    margin-left: 20px;
 }
 
-ul {
+#nav #navigation {
     list-style-type: none;
     margin: -.6vw;
     padding: 0;
@@ -28,11 +37,11 @@ ul {
     top: 0;
 }
   
-li {
+#nav #navigation #list {
     float: left;
 }
   
-li a {
+#nav #navigation #list a {
     display: block;
     color: white;
     text-align: center;
@@ -40,89 +49,100 @@ li a {
     text-decoration: none;
 }
   
-li a:hover {
+#nav #navigation #list a:hover {
     background-color: #111;
 }
 
-
-/* structure */
-.active {
+#nav #navigation #active {
     background-color: #4A6FCF ;
 }
 
-.active:hover {
+#nav #navigation #active:hover {
     background-color: #4261a3 ;
 }
 
-.perinfo {
+/* structure */
+#perinfo {
     padding-left: 15px;
     margin-bottom: 25px;
 }
 
-.perinfo p {
+#perinfo p {
     font-size: 16px;
     margin-left: 5px;
-    size: 0px -10px;
     margin-bottom: -5px;
+    margin-top: 15px;
 }
 
-.perinfo > p {
+#perinfo > p {
     display: flex;
     flex-direction: row;
 }
 
-.differences {
+#bootstrap-overrides #header-override #perinfo p #differences {
     font-weight: bold;
     margin-right: 5px;
 }
 
-.headline {
+#bootstrap-overrides #header-override #perinfo p #attributes {
+    color: #000000;
+    text-decoration: none;
+}
+
+#bootstrap-overrides #header-override #perinfo p #attributes:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+#age {
+    margin-bottom: -25px;
+}
+
+#other1 {
+    margin-bottom: -25px;
+}
+
+#other2 {
+    margin-bottom: 5px;
+}
+
+#main #information #headline {
     margin-top: 20px;
-    margin-bottom: -10px;
+    margin-bottom: -5px;
 }
 
-.development {
+#main #information #development {
     font-size: 95%;
+    font-weight: bold;
 }
 
-.descriptions {
+#main #information #descriptions {
     width: 600px;
-    margin-top: -15px;
+    margin-top: 15px;
 }
 
-.misfit {
-    margin-top: -10px;
+#main #information #descriptions #misfit {
+    margin-top: -5px;
 }
 
-.spacing {
+#main #information #descriptions #spacing {
     margin-bottom: 40px;
 }
 
-.spacing_last {
+#main #information #descriptions #spacing_last {
     margin-top: -15px;
     margin-bottom: 25px;
 }
 
-.age {
-    margin-bottom: -25px;
-}
-
-.other1 {
-    margin-bottom: -25px;
-}
-
-.other2 {
-    margin-bottom: 5px;
-}
-
-.name {
+#bootstrap-overrides #header-override #name {
     margin-top: -35px;
-    margin-left: 10px;
+    margin-left: 35px;
     margin-bottom: 3px;
     font-size: 22.25px;
 }
 
-.hosting {
+
+#footer #hosting {
     text-align: right;
     position: fixed;
     margin-bottom: 0px;
@@ -135,7 +155,7 @@ li a:hover {
     display: block;
 }
 
-.hosting img {
+#footer #hosting #host {
     border-width: 0px;
     width: 180px;
     height: 45px;

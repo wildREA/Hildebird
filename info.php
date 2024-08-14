@@ -22,7 +22,7 @@ require_once ("includes/header.php");
         <br>
         <section id="information">
             <h3 id="certificate">Certificeringer</h3>
-            <article id==officials>
+            <article id="officials">
                 <p>SCD - Object Oriented Programming Certified Developer | 2022</p>
                 <p id="python">SCD - Python Certified Developer | 2020</p>
             </article>
@@ -45,7 +45,8 @@ require_once ("includes/header.php");
                 </div>
             </article>
         </section>
-        <footer id="footer">
+    </main>
+    <footer id="footer">
         <p id="hosting">
             <a target="_blank" href="https://www.freewebhostingarea.com" title="Free Web Hosting with PHP5 or PHP7">
                 <img id="host" alt="Free Web Hosting" src="https://www.freewebhostingarea.com/images/poweredby.png">
