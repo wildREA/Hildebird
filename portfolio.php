@@ -12,7 +12,7 @@ require_once ("includes/header.php");
     </nav>
     <main id="main">
         <section id="information">
-            <h3 id="headline">Udavalgte projekter</h3> <!-- does not want to work with css file-->
+            <h3 id="headline">Udvalgte projekter</h3> <!-- does not want to work with css file-->
             <h4 id="development">Udvikling</h4>
             <article id="descriptions">
                 <p id="misfit"><a href="https://itd.sde.dk/" target="_blank">https://itd.sde.dk</a> (lanceret december 2021) UX/UI design</p>

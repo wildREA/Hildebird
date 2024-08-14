@@ -1,0 +1,204 @@
+/* tags */
+#bootstrap-overrides {
+    background: #f7f7f7;
+    font: 11pt futura, helvetica, arial, sans-serif;
+}
+
+#header-override {
+    background: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    
+    /* disables highlighting for all devices (more clean) */
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                          supported by Chrome, Edge, Opera and Firefox */
+}
+
+#header-override #photo {
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+}
+
+#nav #navigation {
+    list-style-type: none;
+    margin: -.6vw;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+  
+#nav #navigation #list {
+    float: left;
+}
+  
+#nav #navigation #list a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+#nav #navigation #list a:hover {
+    background-color: #111;
+}
+
+#nav #navigation #active {
+    background-color: #4A6FCF ;
+}
+
+#nav #navigation #active:hover {
+    background-color: #4261a3 ;
+}
+
+
+/* structure */
+#perinfo {
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+
+#perinfo p {
+    font-size: 16px;
+    margin-left: 5px;
+    margin-bottom: -5px;
+    margin-top: 15px;
+}
+
+#perinfo > p {
+    display: flex;
+    flex-direction: row;
+}
+
+#bootstrap-overrides #header-override #perinfo p #differences {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+#bootstrap-overrides #header-override #perinfo p #attributes {
+    color: #000000;
+    text-decoration: none;
+}
+
+#bootstrap-overrides #header-override #perinfo p #attributes:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+#age {
+    margin-bottom: -25px;
+}
+
+#other1 {
+    margin-bottom: -25px;
+}
+
+#other2 {
+    margin-bottom: 5px;
+}
+
+#main #information {
+    margin-left: 20px;
+}
+
+#main #information #degree {
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+#main #information #college {
+    margin-top: -10px;
+}
+
+#main #information #date {
+    margin-top: -10px;
+    font-size: 80%;
+}
+
+#main #information #education {
+    margin-top: 15px;
+}
+
+#main #information #officials {
+    margin-top: 15px;
+}
+
+#main #information #certificate {
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+#main #information #python {
+    margin-top: -8px;
+}
+
+#main #information #qualifications {
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+#main #information #paragraphs #development {
+    font-size: 95%;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#main #information #paragraphs #descriptions {
+    width: 600px !important;
+}
+
+#main #information #paragraphs #descriptions p {
+    margin-top: 15px;
+}
+
+#main #information #paragraphs #descriptions #misfit {
+    margin-top: -10px;
+}
+
+#main #information #paragraphs #descriptions #spacing {
+    margin-bottom: 30px;
+}
+
+#main #information #paragraphs #descriptions #spacing_last {
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+
+#bootstrap-overrides #header-override #name {
+    margin-top: -35px;
+    margin-left: 35px;
+    margin-bottom: 3px;
+    font-size: 22.25px;
+}
+
+
+#footer #hosting {
+    text-align: right;
+    position: fixed;
+    margin-bottom: 0px;
+    bottom: 3px;
+    right: 3px;
+    width: 100%;
+    z-index: 999999;
+    cursor: pointer;
+    line-height: 0;
+    display: block;
+}
+
+#footer #hosting #host {
+    border-width: 0px;
+    width: 180px;
+    height: 45px;
+    float: right;
+}
