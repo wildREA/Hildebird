@@ -10,10 +10,10 @@ require_once ("includes/header.php");
             <li id="list"><a href="contact.php">Contact</a></li>
             <li id="dropdown"> 
                 <select name="info" id="selection">
-                    <option href="academic.php" value="academic">Akademisk</option>
-                    <option href="" value="development">Udvikling</option>
-                    <option href="" value="design">Design</option>
-                    <option href="" value="gallery">Galleri</option>
+                    <option id="active" href="academic.php" value="academic"><a href="">Akademisk</a></option>
+                    <option value="development"><a href="">Udvikling</a></option>
+                    <option value="design"><a href="">Design</a></option>
+                    <option value="gallery"><a href="">Galleri</a></option>
                 </select>
             </li>
         </ul>
