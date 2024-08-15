@@ -1,23 +1,21 @@
 <?php 
 require_once ("includes/header.php");
 ?>
-    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="academic.css">
     <nav id="nav">
         <ul id="navigation">
             <li id="list"><a href="index.php">Home</a></li>
             <li id="list"><a href="info.php">Information</a></li>
             <li id="list"><a href="portfolio.php">Portfolio</a></li>
             <li id="list"><a href="contact.php">Contact</a></li>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown button
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-            </div>
+            <li id="dropdown"> 
+                <select name="info" id="selection">
+                    <option href="academic.php" value="academic">Akademisk</option>
+                    <option href="" value="development">Udvikling</option>
+                    <option href="" value="design">Design</option>
+                    <option href="" value="gallery">Galleri</option>
+                </select>
+            </li>
         </ul>
     </nav>
     <main id="main">

@@ -202,3 +202,24 @@
     height: 45px;
     float: right;
 }
+
+/* navigation */
+#nav #navigation #dropdown #selection {
+    height: 44px;
+    border: none;
+    background-color: #4A6FCF;
+    color: white;
+}
+
+#nav #navigation #dropdown #selection #option {
+    background-color: #333;
+    color: white;
+}
+
+#nav #navigation #dropdown #selection #options:hover {
+    background-color: #111;
+}
+
+#nav #navigation #dropdown #selection:hover {
+    background-color: #4261a3 ;
+}
