@@ -140,38 +140,6 @@
 
 #main #information #python {
     margin-top: -8px;
-}
-
-#main #information #qualifications {
-    margin-top: 20px;
-    margin-bottom: -10px;
-}
-
-#main #information #paragraphs #development {
-    font-size: 95%;
-    font-weight: 600;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-#main #information #paragraphs #descriptions {
-    width: 600px !important;
-}
-
-#main #information #paragraphs #descriptions p {
-    margin-top: 15px;
-}
-
-#main #information #paragraphs #descriptions #misfit {
-    margin-top: -10px;
-}
-
-#main #information #paragraphs #descriptions #spacing {
-    margin-bottom: 30px;
-}
-
-#main #information #paragraphs #descriptions #spacing_last {
-    margin-top: -15px;
     margin-bottom: 25px;
 }
 
@@ -213,6 +181,10 @@
     border: none;
     background-color: #4A6FCF;
     color: white;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    outline: none;
 }
 
 #nav #navigation #dropdown #selection option:hover {
@@ -220,10 +192,15 @@
     color: white;
 }
 
+#nav #navigation #dropdown #selection:hover {
+    background-color: #111;
+}
+
 /* inactive */
 #nav #navigation #dropdown #selection option {
     background-color: #333;
     color: white;
+    justify-content: center;
 } /* ------ */
 
 /* active */
@@ -231,17 +208,6 @@
     background-color: #4A6FCF; /* Background when selected */
     color: white; /* Text color when selected */
 } /* ---- */
-
-#nav #navigation #dropdown #selection {
-    height: 44px;
-    border: none;
-    background-color: #4A6FCF;
-    color: white;
-}
-
-#nav #navigation #dropdown #selection:hover {
-    background-color: #111;
-}
   
 #nav #navigation #list a {
     display: block;
@@ -249,4 +215,8 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+body main #divider {
+    border-top: 1px solid #c7c7c7;
 }
