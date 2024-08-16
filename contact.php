@@ -15,14 +15,14 @@ require_once ("includes/header.php");
         if ($show_alert):
             if ($status_value == "success"): 
         ?>
-        <div class="alert alert-success">
+        <div id="success" class="alert alert-success">
             <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
             <strong>Success!</strong> Submission sent successfully!
         </div>
         <?php
             elseif ($status_value == "error"): 
         ?>
-        <div class="alert alert-danger">
+        <div id="error" class="alert alert-danger">
             <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
             <strong>Error!</strong> There was an issue sending.
         </div>
