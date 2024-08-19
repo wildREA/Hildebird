@@ -61,6 +61,7 @@
     background-color: #4261a3 ;
 }
 
+
 /* structure */
 #perinfo {
     padding-left: 15px;
@@ -106,6 +107,43 @@
     margin-bottom: 5px;
 }
 
+#main #information {
+    margin-left: 20px;
+}
+
+#main #information #qualifications {
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+#main #information #paragraphs #development {
+    font-size: 95%;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#main #information #paragraphs #descriptions {
+    width: 600px !important;
+}
+
+#main #information #paragraphs #descriptions p {
+    margin-top: 15px;
+}
+
+#main #information #paragraphs #descriptions #misfit {
+    margin-top: -10px;
+}
+
+#main #information #paragraphs #descriptions #spacing {
+    margin-bottom: 30px;
+}
+
+#main #information #paragraphs #descriptions #spacing_last {
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+
 #bootstrap-overrides #header-override #name {
     margin-top: -35px;
     margin-left: 35px;
@@ -134,65 +172,52 @@
     float: right;
 }
 
-/* Contact form */
-#main #information #contact-form {
-    max-width: 600px;
-    margin: 0 auto;
-    margin-top: 90px;
-    margin-bottom: 53px;
-    padding: 20px;
-    background-color: #ECEDED;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-#main #information #contact-form .form-group {
-    margin-bottom: 0px;
-}
-
-#main #information #contact-form label {
-    display: block;
-    font-weight: bold;
-    margin-top: 15px;
-    margin-bottom: 5px
-}
-
-#main #information #contact-form input,
-#main #information #contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    resize: vertical;
-    min-height: 55px;
-    max-height: 310px;
-}
-
-#main #information #contact-form button {
-    margin-top: 25px;
-    margin-bottom: 20px;
+/* navigation */
+/* Remove default appearance */
+#nav #navigation #dropdown #selection {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 44px;
+    border: none;
     background-color: #4A6FCF;
     color: white;
-    border: none;
-    padding: 10px 15px;
-    font-size: 16px;
-    border-radius: 4px;
-    cursor: pointer;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    outline: none;
 }
 
-#main #information #contact-form button:hover {
-    background-color: #4261a3;
+#nav #navigation #dropdown #selection option:hover {
+    background-color: #111;
+    color: white;
 }
 
-#main #information #spacing {
-    margin-bottom: 50px;
+#nav #navigation #dropdown #selection:hover {
+    background-color: #111;
 }
 
-#success {
-    margin-top: 8px;
+/* inactive */
+#nav #navigation #dropdown #selection option {
+    background-color: #333;
+    color: white;
+    justify-content: center;
+} /* ------ */
+
+/* active */
+#nav #navigation #dropdown #selection:focus option:checked {
+    background-color: #4A6FCF; /* Background when selected */
+    color: white; /* Text color when selected */
+} /* ---- */
+  
+#nav #navigation #list a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-#error {
-    margin-top: 8px;
+ #main #divider {
+    border-top: 1px solid #c7c7c7;
 }

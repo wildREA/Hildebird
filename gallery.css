@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 45px;
-    
+
     /* disables highlighting for all devices (more clean) */
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -36,11 +36,11 @@
     position: sticky;
     top: 0;
 }
-  
+
 #nav #navigation #list {
     float: left;
 }
-  
+
 #nav #navigation #list a {
     display: block;
     color: white;
@@ -48,7 +48,7 @@
     padding: 14px 16px;
     text-decoration: none;
 }
-  
+
 #nav #navigation #list a:hover {
     background-color: #111;
 }
@@ -60,6 +60,7 @@
 #nav #navigation #active:hover {
     background-color: #4261a3 ;
 }
+
 
 /* structure */
 #perinfo {
@@ -106,30 +107,39 @@
     margin-bottom: 5px;
 }
 
-#main #information #headline {
+#main #information {
+    margin-left: 20px;
+}
+
+#main #information #qualifications {
     margin-top: 20px;
-    margin-bottom: -5px;
+    margin-bottom: -10px;
 }
 
-#main #information #development {
+#main #information #paragraphs #development {
     font-size: 95%;
-    font-weight: bold;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
-#main #information #descriptions {
-    width: 600px;
+#main #information #paragraphs #descriptions {
+    width: 600px !important;
+}
+
+#main #information #paragraphs #descriptions p {
     margin-top: 15px;
 }
 
-#main #information #descriptions #misfit {
-    margin-top: -5px;
+#main #information #paragraphs #descriptions #misfit {
+    margin-top: -10px;
 }
 
-#main #information #descriptions #spacing {
-    margin-bottom: 40px;
+#main #information #paragraphs #descriptions #spacing {
+    margin-bottom: 30px;
 }
 
-#main #information #descriptions #spacing_last {
+#main #information #paragraphs #descriptions #spacing_last {
     margin-top: -15px;
     margin-bottom: 25px;
 }
@@ -162,19 +172,100 @@
     float: right;
 }
 
- #main #information #divider {
+/* navigation */
+/* removes default appearance */
+#nav #navigation #dropdown #selection {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 44px;
+    border: none;
+    background-color: #4A6FCF;
+    color: white;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    outline: none;
+}
+
+#nav #navigation #dropdown #selection option:hover {
+    background-color: #111;
+    color: white;
+}
+
+#nav #navigation #dropdown #selection:hover {
+    background-color: #111;
+}
+
+/* inactive */
+#nav #navigation #dropdown #selection option {
+    background-color: #333;
+    color: white;
+    justify-content: center;
+} /* ------ */
+
+/* active */
+#nav #navigation #dropdown #selection:focus option:checked {
+    background-color: #4A6FCF; /* Background when selected */
+    color: white; /* Text color when selected */
+} /* ---- */
+
+#nav #navigation #list a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#main #divider {
     border-top: 1px solid #c7c7c7;
 }
 
-#main #information #showcase,
-#main #information #offset #showcase{
-    max-width: 200px;
-    max-height: 200px;
-    margin-left: 700px;
-    margin-top: -270px;
-    border: 3px solid #C7C7C7;
+/* gallery */
+#main #gallery {
+    max-width: 1000px;
+    margin: auto;
 }
 
-#main #information #offset {
-    margin-top: 55px;
+#main #gallery #title {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+#main #gallery #row {
+    margin: 8px -16px;
+}
+
+#main #gallery #row,
+#main #gallery #row > #main #gallery #row #column {
+    padding: 8px;
+}
+
+#main #gallery #row > #main #gallery #row #column {
+    float: left;
+    width: 25%;
+}
+
+#main #gallery #row > #main #gallery #row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#main #gallery #row > #main #gallery #row #column #content {
+    background-color: white;
+    padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    #main #gallery #row > #main #gallery #row #column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #main #gallery #row > #main #gallery #row #column {
+        width: 100%;
+    }
 }

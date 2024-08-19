@@ -1,7 +1,7 @@
-<?php 
+<?php
 require_once ("includes/header.php");
 ?>
-    <link rel="stylesheet" href="academic.css">
+    <link rel="stylesheet" href="design.css">
     <nav id="nav">
         <ul id="navigation">
             <li id="list"><a href="index.php">Home</a></li>
@@ -11,8 +11,8 @@ require_once ("includes/header.php");
             <li id="dropdown"> 
                 <select id="selection" class="text-center" name="info">
                     <option value="" disabled selected>Projects</option>
-                    <option><a id="active" value="academic" href="academic.php">Akademisk</a></option>
-                    <option><a value="development" href="development.php">Udvikling</a></option>
+                    <option><a value="academic" href="academic.php">Akademisk</a></option>
+                    <option><a id="active" value="development" href="development.php">Udvikling</a></option>
                     <option><a value="design" href="">Design</a></option>
                     <option><a value="gallery" href="">Galleri</a></option>
                 </select>
@@ -21,19 +21,13 @@ require_once ("includes/header.php");
     </nav>
     <main id="main">
         <section id="information">
-            <h3 id="degree">Uddannelse</h3>
-            <article id="education">
-                <p>Datatekniker med speciale i programmering</p>
-                <p id="college">| Syddansk Erhvervsskole</p>
-                <p id="date">Juni 2024</p>
-            </article>
-        </section>
-        <hr id="divider" class="hr-blurry" />
-        <section id="information">
-            <h3 id="certificate">Certificeringer</h3>
-            <article id="officials">
-                <p>SCD - Object Oriented Programming Certified Developer | 2022</p>
-                <p id="python">SCD - Python Certified Developer | 2020</p>
+            <h3 id="qualifications">Kvalifikationer</h3>
+            <article id="paragraphs">
+                <h4 id="development">Design</h4>
+                <div id="descriptions">
+                    <p id="misfit">Min designproces begynder med wireframing og fortsætter med råskitser, som jeg udvikler til en prototype.  Efter flere iterationer og i samarbejde med kunden, udvikler jeg det endelige design.</p> <br>
+                    <p id="spacing_last">Jeg har professionel erfaring med Adobe Creative Cloud, især XD, Illustrator og Photoshop.</p>
+                </div>
             </article>
         </section>
     </main>
