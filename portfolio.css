@@ -161,3 +161,7 @@
     height: 45px;
     float: right;
 }
+
+ #main #information #divider {
+    border-top: 1px solid #c7c7c7;
+}
