@@ -1,3 +1,7 @@
+- Make competence list in header
+- Active hover = darker blue, only inactives dark grey on hover
 - Information -> Projects
-- From list to dropdown | All projects divided between Development (Udvikling) and Design.
 - Follow media graphic designer's instructions
+- Automate sizing on dropdown depending on text length of options
+- Fix option href
+

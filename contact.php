@@ -33,6 +33,9 @@ require_once ("includes/header.php");
         <section id="information">
             <p id="spacing"></p>
             <form action="form.php" method="POST" id="contact-form">
+                <div id="title">
+                    <p id="forced" for="name">KONTAKT MIG</p>
+                </div>
                 <div id="form-group">
                     <label id="forced" for="name">Navn:</label>
                     <input type="text" id="name" name="name" required autocomplete="off">

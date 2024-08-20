@@ -1,64 +1,25 @@
-<?php 
+<?php
 require_once ("includes/header.php");
 ?>
-<<<<<<< HEAD
-    <link rel="stylesheet" href="test.css">
-=======
-    <link rel="stylesheet" href="academic.css">
->>>>>>> 811139cb2731e1b143aa5aa7d83e4d98f383dd1a
+    <link rel="stylesheet" href="development.css">
     <nav id="nav">
         <ul id="navigation">
             <li id="list"><a href="index.php">Home</a></li>
             <li id="list"><a href="info.php">Information</a></li>
             <li id="list"><a href="portfolio.php">Portfolio</a></li>
             <li id="list"><a href="contact.php">Contact</a></li>
-<<<<<<< HEAD
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown button
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-            </div>
-=======
             <li id="dropdown"> 
                 <select id="selection" class="text-center" name="info">
                     <option value="" disabled selected>Projects</option>
-                    <option><a id="active" value="academic" href="academic.php">Akademisk</a></option>
-                    <option><a value="development" href="development.php">Udvikling</a></option>
+                    <option><a value="academic" href="academic.php">Akademisk</a></option>
+                    <option><a id="active" value="development" href="development.php">Udvikling</a></option>
                     <option><a value="design" href="">Design</a></option>
                     <option><a value="gallery" href="">Galleri</a></option>
                 </select>
-            </li>
->>>>>>> 811139cb2731e1b143aa5aa7d83e4d98f383dd1a
+           </li>
         </ul>
     </nav>
     <main id="main">
-        <section id="information">
-            <h3 id="degree">Uddannelse</h3>
-            <article id="education">
-                <p>Datatekniker med speciale i programmering</p>
-                <p id="college">| Syddansk Erhvervsskole</p>
-                <p id="date">Juni 2024</p>
-            </article>
-        </section>
-<<<<<<< HEAD
-        <br>
-=======
-        <hr id="divider" class="hr-blurry" />
->>>>>>> 811139cb2731e1b143aa5aa7d83e4d98f383dd1a
-        <section id="information">
-            <h3 id="certificate">Certificeringer</h3>
-            <article id="officials">
-                <p>SCD - Object Oriented Programming Certified Developer | 2022</p>
-                <p id="python">SCD - Python Certified Developer | 2020</p>
-            </article>
-        </section>
-<<<<<<< HEAD
-        <br>
         <section id="information">
             <h3 id="qualifications">Kvalifikationer</h3>
             <article id="paragraphs">
@@ -69,15 +30,8 @@ require_once ("includes/header.php");
                     <p>JavaScript bruger jeg også hver dag, ofte med React. Jeg har udviklet Node.js-baseret workflow automatisering via Webpack, som jeg bruger til mine web-projekter. Jeg bruger Git til alle mine programmeringsopgaver. Tag et kig på min GitHub , hvor du kan finde forskellige projekter og mine bidrag til forskellige open source projekter.</p>
                     <p id="spacing">Jeg står selv for mine servere, så jeg har godt styr på kommandoprompten. Jeg håndterer ofte DNS. Jeg koder helst i Microsoft  VS Code eller i Apache NetBeans.</p>
                 </div>
-                <h4 id="development">Design</h4>
-                <div id="descriptions">
-                    <p id="misfit">Min designproces begynder med wireframing og fortsætter med råskitser, som jeg udvikler til en prototype.  Efter flere iterationer og i samarbejde med kunden, udvikler jeg det endelige design.</p> <br>
-                    <p id="spacing_last">Jeg har professionel erfaring med Adobe Creative Cloud, især XD, Illustrator og Photoshop.</p>
-                </div>
             </article>
         </section>
-=======
->>>>>>> 811139cb2731e1b143aa5aa7d83e4d98f383dd1a
     </main>
     <footer id="footer">
         <p id="hosting">
@@ -87,10 +41,6 @@ require_once ("includes/header.php");
         </p>
     </footer>
     <script src="script.js"></script>
-<<<<<<< HEAD
-    <script src="pageScroll.js"></script>
-=======
     <script src="page_scroll.js"></script>
->>>>>>> 811139cb2731e1b143aa5aa7d83e4d98f383dd1a
 </body>
 </html>

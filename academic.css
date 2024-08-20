@@ -140,6 +140,7 @@
 
 #main #information #python {
     margin-top: -8px;
+<<<<<<< HEAD
 }
 
 #main #information #qualifications {
@@ -172,6 +173,8 @@
 
 #main #information #paragraphs #descriptions #spacing_last {
     margin-top: -15px;
+=======
+>>>>>>> 811139cb2731e1b143aa5aa7d83e4d98f383dd1a
     margin-bottom: 25px;
 }
 
@@ -194,6 +197,10 @@
     cursor: pointer;
     line-height: 0;
     display: block;
+<<<<<<< HEAD
+=======
+    width: 30px;
+>>>>>>> 811139cb2731e1b143aa5aa7d83e4d98f383dd1a
 }
 
 #footer #hosting #host {
@@ -201,4 +208,57 @@
     width: 180px;
     height: 45px;
     float: right;
+<<<<<<< HEAD
+=======
+}
+
+/* navigation */
+/* Remove default appearance */
+#nav #navigation #dropdown #selection {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 44px;
+    border: none;
+    background-color: #4A6FCF;
+    color: white;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    outline: none;
+}
+
+#nav #navigation #dropdown #selection option:hover {
+    background-color: #111;
+    color: white;
+}
+
+#nav #navigation #dropdown #selection:hover {
+    background-color: #111;
+}
+
+/* inactive */
+#nav #navigation #dropdown #selection option {
+    background-color: #333;
+    color: white;
+    justify-content: center;
+} /* ------ */
+
+/* active */
+#nav #navigation #dropdown #selection:focus option:checked {
+    background-color: #4A6FCF; /* Background when selected */
+    color: white; /* Text color when selected */
+} /* ---- */
+  
+#nav #navigation #list a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ #main #divider {
+    border-top: 1px solid #c7c7c7;
+>>>>>>> 811139cb2731e1b143aa5aa7d83e4d98f383dd1a
 }

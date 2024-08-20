@@ -10,7 +10,7 @@
     flex-direction: column;
     margin-top: 45px;
     
-    // disables highlighting for all devices (more clean)
+    /* disables highlighting for all devices (more clean) */
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
     -khtml-user-select: none; /* Konqueror HTML */
@@ -61,24 +61,8 @@
     background-color: #4261a3 ;
 }
 
+
 /* structure */
-#main #information {
-    margin-left: 20px;
-}
-
-#main #information #headline {
-    margin-top: 20px;
-    margin-bottom: 6px;
-}
-
-#main #information #description {
-    margin-bottom: 6px;
-}
-
-#main #information #paragraph {
-    margin-right: 600px;
-}
-
 #perinfo {
     padding-left: 15px;
     margin-bottom: 25px;
@@ -123,6 +107,43 @@
     margin-bottom: 5px;
 }
 
+#main #information {
+    margin-left: 20px;
+}
+
+#main #information #qualifications {
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+#main #information #paragraphs #development {
+    font-size: 95%;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#main #information #paragraphs #descriptions {
+    width: 600px !important;
+}
+
+#main #information #paragraphs #descriptions p {
+    margin-top: 15px;
+}
+
+#main #information #paragraphs #descriptions #misfit {
+    margin-top: -10px;
+}
+
+#main #information #paragraphs #descriptions #spacing {
+    margin-bottom: 30px;
+}
+
+#main #information #paragraphs #descriptions #spacing_last {
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+
 #bootstrap-overrides #header-override #name {
     margin-top: -35px;
     margin-left: 35px;
@@ -150,4 +171,54 @@
     width: 180px;
     height: 45px;
     float: right;
+}
+
+/* navigation */
+/* Remove default appearance */
+#nav #navigation #dropdown #selection {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 44px;
+    border: none;
+    background-color: #4A6FCF;
+    color: white;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    outline: none;
+}
+
+#nav #navigation #dropdown #selection option:hover {
+    background-color: #111;
+    color: white;
+}
+
+#nav #navigation #dropdown #selection:hover {
+    background-color: #111;
+}
+
+/* inactive */
+#nav #navigation #dropdown #selection option {
+    background-color: #333;
+    color: white;
+    justify-content: center;
+} /* ------ */
+
+/* active */
+#nav #navigation #dropdown #selection:focus option:checked {
+    background-color: #4A6FCF; /* Background when selected */
+    color: white; /* Text color when selected */
+} /* ---- */
+  
+#nav #navigation #list a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ #main #divider {
+    border-top: 1px solid #c7c7c7;
 }

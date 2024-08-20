@@ -125,6 +125,7 @@
     cursor: pointer;
     line-height: 0;
     display: block;
+    width: 30px;
 }
 
 #footer #hosting #host {
@@ -141,13 +142,13 @@
     margin-top: 90px;
     margin-bottom: 53px;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #ECEDED;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #main #information #contact-form .form-group {
-    margin-bottom: px;
+    margin-bottom: 0px;
 }
 
 #main #information #contact-form label {

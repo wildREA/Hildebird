@@ -24,7 +24,7 @@ if (isset($_GET["status"])) {
 <body id="bootstrap-overrides">
     <header id="header-override">
         <h1 id="name">Hildegard Summerbird</h1>
-        <img id="photo" src="photo.jpg" alt="Photo of Person">
+        <img id="photo" src="photos/photo.jpg" alt="Photo of Person">
         <section id="perinfo">
             <p id="age">
                 <span id="differences">Alder:</span> <a id="attributes">130</a>
