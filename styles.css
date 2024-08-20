@@ -142,6 +142,7 @@
     cursor: pointer;
     line-height: 0;
     display: block;
+    width: 30px;
 }
 
 #footer #hosting #host {

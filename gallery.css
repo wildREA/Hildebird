@@ -163,7 +163,8 @@
     cursor: pointer;
     line-height: 0;
     display: block;
-}
+    width: 30px;
+} 
 
 #footer #hosting #host {
     border-width: 0px;
@@ -230,42 +231,44 @@
 
 #main #gallery #title {
     font-size: 50px;
-    word-break: break-all;
+    word-break: break-word;
 }
 
-#main #gallery #row {
-    margin: 8px -16px;
-}
-
-#main #gallery #row,
-#main #gallery #row > #main #gallery #row #column {
+#main #gallery #row > .col-md-3, 
+#main #gallery #row > .col-sm-6 {
     padding: 8px;
 }
 
-#main #gallery #row > #main #gallery #row #column {
-    float: left;
-    width: 25%;
+#main #gallery #content img {
+    width: 100%;
+    height: auto;
 }
 
-#main #gallery #row > #main #gallery #row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-#main #gallery #row > #main #gallery #row #column #content {
+#main #gallery #content {
     background-color: white;
     padding: 10px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#main #gallery #content-border {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 16px;
+    height: 386.5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (max-width: 900px) {
-    #main #gallery #row > #main #gallery #row #column {
-        width: 50%;
+    #main #gallery #row > .col-md-3 {
+        max-width: 50%;
     }
 }
 
 @media screen and (max-width: 600px) {
-    #main #gallery #row > #main #gallery #row #column {
-        width: 100%;
+    #main #gallery #row > .col-sm-6 {
+        max-width: 100%;
     }
 }

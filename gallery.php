@@ -21,50 +21,44 @@ require_once ("includes/header.php");
         </ul>
     </nav>
     <main id="main">
-        <div id="gallery">
-            // indention for overview (read lowest indention with comment)
-            <h1 id="title">GALLERI</h1>
+        <div id="gallery" class="container">
+            <h1 id="title" class="text-center">GALLERI</h1>
             <hr>
             <h2>PORTFOLIO</h2>
             <p>Billeder med beskrivelse af min fortidige arbejd.</p>
             <div id="row">
-                <div id="column">
+                <div class="col-md-3 col-sm-6">
                     <div id="content">
-                        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+                        <img src="gallery/itd.jpg" alt="Mountains" class="img-fluid">
                         <h3>IT & Data</h3>
-                        <p>(whatever description with random image)</p>
+                        <p>Hjemmesiden var lavet som en del af SDEs skolepraktik hjemmeside.</p>
                     </div>
                 </div>
-                <div id="column">
+                <div class="col-md-3 col-sm-6">
                     <div id="content">
-                        <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+                        <img src="gallery/auto.jpg" alt="Lights" class="img-fluid">
                         <h3>Automobility</h3>
-                        <p>(whatever description with random image)</p>
+                        <p>Automobility er en hjemmeside om uddannelse i udlandet, specifikt i Estland, som har partnerskab med SDE i Danmark.</p>
                     </div>
                 </div>
-                <div id="column">
+                <div class="col-md-3 col-sm-6">
                     <div id="content">
-                        <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+                        <img src="gallery/sde.jpg" alt="Nature" class="img-fluid">
                         <h3>Syddansk Erhversskole</h3>
-                        <p>(whatever description with random image)</p>
+                        <p>Denne hjemmeside er Syddansk Erhvervsskolens, som jeg var med til at udvikle.</p>
                     </div>
                 </div>
-                <div id="column">
+                <div class="col-md-3 col-sm-6">
                     <div id="content">
-                        <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
-                        <h3>Some other work</h3>
-                        <p>(whatever description with random image)</p>
+                        <img src="gallery/misc/cheburek.jpg" alt="Mountains" class="img-fluid">
+                        <h3>Cheburek</h3>
+                        <p>Jeg kan meget godt lide at spise dette.</p>
                     </div>
                 </div>
             </div>
-            <div id="content">
-                <img src="/w3images/p3.jpg" alt="Bear" style="width:100%">
-                <h3>Some Other random important Work or smth</h3>
-                <p>(whatever description with random image)</p>
-                <p>(whatever description with random image)</p>
+            <div id="content-border">
             </div>
         </div>
-        // remove indention after it works
     </main>
     <footer id="footer">
         <p id="hosting">
