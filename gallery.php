@@ -10,12 +10,12 @@ require_once ("includes/header.php");
             <li id="list"><a href="portfolio.php">Portfolio</a></li>
             <li id="list"><a href="contact.php">Contact</a></li>
             <li id="dropdown"> 
-                <select id="selection" class="text-center" name="info">
+                <select id="selection" class="text-center" name="info" onchange="selectNav(this)">
                     <option value="" disabled selected>Projects</option>
-                    <option><a value="academic" href="academic.php">Akademisk</a></option>
-                    <option><a id="active" value="development" href="development.php">Udvikling</a></option>
-                    <option><a value="design" href="">Design</a></option>
-                    <option><a value="gallery" href="">Galleri</a></option>
+                    <option value="academic.php">Akademisk</option>
+                    <option value="development.php">Udvikling</option>
+                    <option value="design.php">Design</option>
+                    <option id="active" value="gallery.php">Galleri</option>
                 </select>
             </li>
         </ul>
@@ -67,7 +67,8 @@ require_once ("includes/header.php");
             </a>
         </p>
     </footer>
-    <script src="script.js"></script>
-    <script src="page_scroll.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/page_scroll.js"></script>
+    <script src="js/select_nav.js"></script>
 </body>
 </html>

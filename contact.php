@@ -61,7 +61,7 @@ require_once ("includes/header.php");
             </a>
         </p>
     </footer>
-    <script src=""></script>
-    <script src="pageScroll.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/page_scroll.js"></script>
 </body>
 </html>
