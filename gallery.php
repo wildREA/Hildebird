@@ -13,10 +13,10 @@ require_once ("includes/header.php");
                 <select id="selection" class="text-center" name="info" onchange="selectNav(this)">
                     <option value="" disabled selected>Projects</option>
                     <option value="academic.php">Akademisk</option>
-                    <option value="development.php">Udvikling</option>
-                    <option value="design.php">Design</option>
+                    <option value="development.php">Udvikling</option> 
+                   <option value="design.php">Design</option>
                     <option id="active" value="gallery.php">Galleri</option>
-                </select>
+                </select>`
             </li>
         </ul>
     </nav>
