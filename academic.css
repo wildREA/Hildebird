@@ -24,6 +24,7 @@
     width: 250px;
     height: 250px;
     margin-left: 20px;
+    border: #999 solid 2px;
 }
 
 #nav #navigation {

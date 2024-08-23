@@ -5,18 +5,17 @@ require_once ("includes/header.php");
     <nav id="nav">
         <ul id="navigation">
             <li id="list"><a href="index.php">Home</a></li>
-            <li id="list"><a href="info.php">Information</a></li>
             <li id="list"><a href="portfolio.php">Portfolio</a></li>
             <li id="list"><a href="contact.php">Contact</a></li>
             <li id="dropdown"> 
                 <select id="selection" class="text-center" name="info" onchange="selectNav(this)">
-                    <option value="" disabled selected>Udvikling</option>
+                    <option value="" disabled selected>Galleri</option>
                     <option value="academic.php">Akademisk</option>
-                    <option id="active" value="development.php">Udvikling</option>
+                    <option value="development.php">Udvikling</option>
                     <option value="design.php">Design</option>
-                    <option value="gallery.php">Galleri</option>
+                    <option id="active" value="gallery.php">Galleri</option>
                 </select>
-           </li>
+            </li>
         </ul>
     </nav>
     <main id="main">

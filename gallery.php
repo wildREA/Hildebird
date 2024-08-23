@@ -6,7 +6,6 @@ require_once ("includes/header.php");
     <nav id="nav">
         <ul id="navigation">
             <li id="list"><a href="index.php">Home</a></li>
-            <li id="list"><a href="info.php">Information</a></li>
             <li id="list"><a href="portfolio.php">Portfolio</a></li>
             <li id="list"><a href="contact.php">Contact</a></li>
             <li id="dropdown"> 
