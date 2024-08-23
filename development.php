@@ -10,7 +10,7 @@ require_once ("includes/header.php");
             <li id="list"><a href="contact.php">Contact</a></li>
             <li id="dropdown"> 
                 <select id="selection" class="text-center" name="info" onchange="selectNav(this)">
-                    <option value="" disabled selected>Projects</option>
+                    <option value="" disabled selected>Udvikling</option>
                     <option value="academic.php">Akademisk</option>
                     <option id="active" value="development.php">Udvikling</option>
                     <option value="design.php">Design</option>

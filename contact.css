@@ -136,6 +136,12 @@
 }
 
 /* Contact form */
+#main #information #title {
+    font-weight: bold;
+    margin-left: 05px;
+    font-size: 20px;
+}
+
 #main #information #contact-form {
     max-width: 600px;
     margin: 0 auto;
