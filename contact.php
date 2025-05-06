@@ -54,13 +54,6 @@ require_once ("includes/header.php");
             </form>
         </section>
     </main>
-    <footer id="footer">
-        <p id="hosting">
-            <a target="_blank" href="https://www.freewebhostingarea.com" title="Free Web Hosting with PHP5 or PHP7">
-                <img id="host" alt="Free Web Hosting" src="https://www.freewebhostingarea.com/images/poweredby.png">
-            </a>
-        </p>
-    </footer>
     <script src=""></script>
     <script src="pageScroll.js"></script>
 </body>
